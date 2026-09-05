@@ -139,7 +139,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Diretório | Descrição | Exemplos |
-|------------|------------|------------|
+|:------------:|------------|------------|
 | `/` | Diretório raiz (*root*), o topo da hierarquia do sistema de arquivos. | Todos os caminhos absolutos começam aqui. |
 | `/bin` | Binários essenciais para os usuários (comandos). | `ls`, `cp`, `mv`, `rm` |
 | `/boot` | Arquivos de inicialização (*boot loader*), incluindo kernel, initrd e configurações do carregador de boot. | Imagem do kernel, configuração do GRUB |
@@ -166,7 +166,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando        | Descrição em Inglês                 | Descrição em Português                      |
-|----------------|-------------------------------------|---------------------------------------------|
+|:----------------:|-------------------------------------|---------------------------------------------|
 | `dig -x [ip]`  | IP address reverse lookup          | Consulta reversa de endereço IP             |
 | `dig -x [host]`| Domain reverse lookup              | Consulta reversa de domínio                 |
 | `dig [domain]` | Show domain's DNS info             | Mostrar informações de DNS do domínio       |
@@ -192,7 +192,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando         | Descrição em Inglês            | Descrição em Português                 |
-|-----------------|--------------------------------|----------------------------------------|
+|:-----------------:|--------------------------------|----------------------------------------|
 | `adduser [user]`| Add a new user                 | Adicionar um novo usuário              |
 | `useradd [user]`| Add a new user                 | Adicionar um novo usuário              |
 | `chgrp [group] [directory]`| Change directory group | Mudar grupo de diretório          |
@@ -214,7 +214,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando         | Descrição em Inglês             | Descrição em Português                |
-|-----------------|---------------------------------|---------------------------------------|
+|:-----------------:|---------------------------------|---------------------------------------|
 | `cd`            | Move up one level               | Subir um nível                        |
 | `cd`            | Change directory to $HOME       | Mudar diretório para o $HOME          |
 | `cd [location]` | Change to specified directory   | Mudar para o diretório especificado   |
@@ -227,7 +227,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando          | Descrição em Inglês               | Descrição em Português                  |
-|------------------|-----------------------------------|-----------------------------------------|
+|:------------------:|-----------------------------------|-----------------------------------------|
 | `cat /proc/cpuinfo`| Show CPU information            | Mostrar informações da CPU              |
 | `dmesg`          | Show bootup messages              | Mostrar mensagens de inicialização      |
 | `dmidecode`      | Show BIOS hardware info           | Mostrar informações de hardware da BIOS |
@@ -247,7 +247,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando               | Descrição em Inglês                 | Descrição em Português                  |
-|-----------------------|-------------------------------------|-----------------------------------------|
+|:-----------------------:|-------------------------------------|-----------------------------------------|
 | `gzip [file]`         | Create a gz compressed file         | Criar um arquivo comprimido gz          |
 | `tar xf [file.tar]`   | Extract archived file               | Extrair arquivo arquivado               |
 | `zip`/`unzip`         | Package & compress files            | Empacotar e comprimir arquivos          |
@@ -262,7 +262,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando                     | Descrição em Inglês                    | Descrição em Português                             |
-|-----------------------------|----------------------------------------|----------------------------------------------------|
+|:-----------------------------:|----------------------------------------|----------------------------------------------------|
 | `apt-get`                   | Search for and install software packages | Pesquisar e instalar pacotes de software          |
 | `apt install [package]`     | Install a package with APT              | Instalar um pacote com APT                         |
 | `dnf install [package.rpm]` | Install a package with DNF              | Instalar um pacote com DNF                         |
@@ -280,7 +280,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando                | Descrição em Inglês                   | Descrição em Português                              |
-|------------------------|---------------------------------------|-----------------------------------------------------|
+|:------------------------:|---------------------------------------|-----------------------------------------------------|
 | `cat`                  | Show current day and month            | Mostrar dia e mês atuais                            |
 | `cal`                  | Show calendar                         | Mostrar calendário                                  |
 | `date`                 | Show current time and date            | Mostrar hora e data atuais                          |
@@ -304,7 +304,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando          | Descrição em Inglês                             | Descrição em Português                                   |
-|------------------|-------------------------------------------------|----------------------------------------------------------|
+|:------------------:|-------------------------------------------------|----------------------------------------------------------|
 | `chmod 755 [file]` | Full permission to owner; read permissions for others | Permissão total para o proprietário; permissão de leitura para outros |
 | `chmod 766 [file]` | Full permission to owner; read and write for others  | Permissão total para o proprietário; leitura e escrita para outros  |
 | `chmod 777 [file]` | Full read, write, execute permissions to everyone  | Permissão total de leitura, escrita e execução para todos           |
@@ -319,7 +319,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando           | Descrição em Inglês                       | Descrição em Português                               |
-|-------------------|-------------------------------------------|------------------------------------------------------|
+|:-------------------:|-------------------------------------------|------------------------------------------------------|
 | `ssh [user]@[host]`| Connect to host as user                  | Conectar ao host como usuário                        |
 | `ssh [host]`       | Connect to host via port 22              | Conectar ao host via porta 22                        |
 | `telnet [host]`    | Connect to Telnet via port 23            | Conectar ao Telnet via porta 23                      |
@@ -333,7 +333,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando             | Descrição em Inglês                       | Descrição em Português                                 |
-|---------------------|-------------------------------------------|--------------------------------------------------------|
+|:---------------------:|-------------------------------------------|--------------------------------------------------------|
 | `declare [variable]=[value]` | Declare a Bash variable          | Declarar uma variável Bash                             |
 | `echo $[variable]`  | Display value of the variable             | Exibir valor da variável                               |
 | `export [variable]` | Export a Bash variable                    | Exportar uma variável Bash                             |
@@ -348,7 +348,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando         | Descrição em Inglês                | Descrição em Português                                 |
-|-----------------|------------------------------------|--------------------------------------------------------|
+|:-----------------:|------------------------------------|--------------------------------------------------------|
 | `scp [file.txt][server:/tmp]` | Securely transfer a file   | Transferir um arquivo de forma segura                  |
 | `rsync -a /location/ /backup/` | Sync the contents of a location with the backup directory | Sincronizar os conteúdos de uma localização com o diretório de backup |
 
@@ -360,7 +360,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando        | Descrição em Inglês                        | Descrição em Português                                   |
-|----------------|--------------------------------------------|----------------------------------------------------------|
+|:----------------:|--------------------------------------------|----------------------------------------------------------|
 | `fdisk -l`     | Disk partition types and sizes             | Tipos e tamanhos de partições de disco                   |
 | `df -h`        | Show free space on system                  | Mostrar espaço livre no sistema                          |
 | `du -ah`       | Show disk usage for all files              | Mostrar uso do disco para todos os arquivos              |
@@ -376,7 +376,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando          | Descrição em Inglês                           | Descrição em Português                                   |
-|------------------|-----------------------------------------------|----------------------------------------------------------|
+|:------------------:|-----------------------------------------------|----------------------------------------------------------|
 | `bg`             | List background processes                     | Listar processos em segundo plano                        |
 | `clear`          | Clear terminal screen                         | Limpar a tela do terminal                                |
 | `fg [job]`       | Bring job to foreground                       | Trazer trabalho para o primeiro plano                    |
@@ -401,7 +401,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Comando          | Descrição em Inglês                          | Descrição em Português                                   |
-|------------------|----------------------------------------------|----------------------------------------------------------|
+|:------------------:|----------------------------------------------|----------------------------------------------------------|
 | `alias [alias]='[command]'` | Create command alias            | Criar um alias para comando                              |
 | `at [hh:mm]`     | Schedule a job                               | Agendar um trabalho                                      |
 | `cp [source] [dest]` | Copy files or directories                | Copiar arquivos ou diretórios                            |
@@ -771,7 +771,9 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     # ---
     ```
 
-4. Atualizar o `source` do `Terminal`:
+
+
+4. Atualizar o `source` do `Terminal Emulator`:
 
     ```bash
     source ~/.zshrc
